@@ -15,7 +15,7 @@ mongoose.connect("mongodb://127.0.0.1:27017/todos", { useNewUrlParser: true });
 const connection = mongoose.connection;
 
 connection.once("open", () => {
-  console.log("MongoDB Coonnection established successfully");
+  console.log("MongoDB Connection established successfully");
 });
 
 // *****EndPoints *****
